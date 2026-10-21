@@ -2,6 +2,8 @@
 
 VBCC 的 Mac 配套应用：接收已配对 iPhone 发来的文字、快捷键和远程触控板操作，并把开发工具的 Hooks 消息转发到已连接的 iPhone。
 
+[VBCC 官网](https://imyiangyang.top/app/vbcc/) · [下载 vbcc-ios（App Store）](https://apps.apple.com/app/id6772499540)
+
 本仓库用于公开分发安装包、版本记录和使用说明。应用源码保存在独立的私有仓库中。
 
 ## 系统要求
