@@ -15,7 +15,7 @@ VBCC 的 Mac 配套应用：接收已配对 iPhone 发来的文字、快捷键�
 ## 下载与安装
 
 - [下载最新版本](https://github.com/imyiangyang/vbcc-mac-release/releases/latest)
-- [下载 v2.0 安装包](https://github.com/imyiangyang/vbcc-mac-release/releases/download/v2.0/vbcc-mac-v2.0.dmg)
+- [下载 v2.1 安装包](https://github.com/imyiangyang/vbcc-mac-release/releases/download/v2.1/vbcc-mac-v2.1.dmg)
 - [更新记录](CHANGELOG.md) · [功能与使用说明](FEATURES.md)
 
 1. 下载 DMG，打开后将 `vbcc-mac.app` 拖入「应用程序」。
@@ -27,7 +27,7 @@ VBCC 的 Mac 配套应用：接收已配对 iPhone 发来的文字、快捷键�
 应用使用 Developer ID 签名并通过 Apple 公证。Release 提供 SHA-256 校验文件，可在终端核对：
 
 ```sh
-shasum -a 256 vbcc-mac-v2.0.dmg
+shasum -a 256 vbcc-mac-v2.1.dmg
 ```
 
 ## 主要功能
@@ -38,7 +38,11 @@ shasum -a 256 vbcc-mac-v2.0.dmg
 - Hooks 通知：支持 Claude Code、Codex、Cursor，将相应事件转发至已连接的 iPhone。
 - 设备管理：数字配对、已配对设备列表、单台或全部吊销。
 - 历史与日志：查看接收的文字、Hooks 消息和运行日志。
-- 多语言：简体中文、繁体中文、英语、日语、韩语、法语、德语、西班牙语。
+- 多语言：17 种界面语言，可在应用内即时切换或跟随系统；支持阿拉伯语从右到左布局。
+
+## 2.1 更新重点
+
+新增应用内语言设置，语言覆盖扩展至 17 种，并优化模型配置的钥匙串权限请求时机。详见 [2.1 发布说明](releases/v2.1.md)。
 
 ## 使用提示
 
